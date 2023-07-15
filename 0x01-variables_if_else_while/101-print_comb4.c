@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'this print three different at a time'
- * Retur: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
