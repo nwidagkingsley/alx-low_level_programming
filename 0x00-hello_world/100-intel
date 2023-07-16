@@ -1,2 +1,5 @@
 #!/bin/bash
-gcc -S -masm=intel $CFILE
+CFILE="main.c"
+OUTPUT_FILE="${CFILE%.*}.S"
+gcc -S -masm=intel $CFILE -o $OUTUT_FILE
+echo "Assembly code generated and saved in $OUTPUT_FILE."
