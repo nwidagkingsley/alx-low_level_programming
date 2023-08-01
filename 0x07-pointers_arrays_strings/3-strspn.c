@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspan - spans through numbers
+ * _strspn - spans through numbers
  * @s: string tto search from
  * @accept: string to search
  * Return: any nmber
