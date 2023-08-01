@@ -5,6 +5,7 @@
  *@dest: this is the place we are copying to
  *@src: where we aree copying from
  *@n: number of bytes we are copying
+ *Return: this return dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
